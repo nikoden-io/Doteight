@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("indiereb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ef9a46d3e331fc4561345a13d95efb2fb982aee")]
 [assembly: System.Reflection.AssemblyProductAttribute("indiereb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("indiereb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
