@@ -1,0 +1,16 @@
+/Users/nicode/Development/GitHub/Doteight/indiereb/Indiereb.DataAccess/obj/Debug/net8.0/Indiereb.DataAccess.csproj.AssemblyReference.cache
+/Users/nicode/Development/GitHub/Doteight/indiereb/Indiereb.DataAccess/obj/Debug/net8.0/Indiereb.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nicode/Development/GitHub/Doteight/indiereb/Indiereb.DataAccess/obj/Debug/net8.0/Indiereb.DataAccess.AssemblyInfoInputs.cache
+/Users/nicode/Development/GitHub/Doteight/indiereb/Indiereb.DataAccess/obj/Debug/net8.0/Indiereb.DataAccess.AssemblyInfo.cs
+/Users/nicode/Development/GitHub/Doteight/indiereb/Indiereb.DataAccess/obj/Debug/net8.0/Indiereb.DataAccess.csproj.CoreCompileInputs.cache
+/Users/nicode/Development/GitHub/Doteight/indiereb/Indiereb.DataAccess/obj/Debug/net8.0/Indiereb.DataAccess.sourcelink.json
+/Users/nicode/Development/GitHub/Doteight/indiereb/Indiereb.DataAccess/bin/Debug/net8.0/Indiereb.DataAccess.deps.json
+/Users/nicode/Development/GitHub/Doteight/indiereb/Indiereb.DataAccess/bin/Debug/net8.0/Indiereb.DataAccess.dll
+/Users/nicode/Development/GitHub/Doteight/indiereb/Indiereb.DataAccess/bin/Debug/net8.0/Indiereb.DataAccess.pdb
+/Users/nicode/Development/GitHub/Doteight/indiereb/Indiereb.DataAccess/bin/Debug/net8.0/Indiereb.Models.dll
+/Users/nicode/Development/GitHub/Doteight/indiereb/Indiereb.DataAccess/bin/Debug/net8.0/Indiereb.Models.pdb
+/Users/nicode/Development/GitHub/Doteight/indiereb/Indiereb.DataAccess/obj/Debug/net8.0/Indiereb.DataAccess.csproj.CopyComplete
+/Users/nicode/Development/GitHub/Doteight/indiereb/Indiereb.DataAccess/obj/Debug/net8.0/Indiereb.DataAccess.dll
+/Users/nicode/Development/GitHub/Doteight/indiereb/Indiereb.DataAccess/obj/Debug/net8.0/refint/Indiereb.DataAccess.dll
+/Users/nicode/Development/GitHub/Doteight/indiereb/Indiereb.DataAccess/obj/Debug/net8.0/Indiereb.DataAccess.pdb
+/Users/nicode/Development/GitHub/Doteight/indiereb/Indiereb.DataAccess/obj/Debug/net8.0/ref/Indiereb.DataAccess.dll

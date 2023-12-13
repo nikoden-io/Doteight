@@ -1,4 +1,4 @@
-namespace indiereb.Models;
+namespace Indiereb.Models.Models;
 
 public class ErrorViewModel
 {

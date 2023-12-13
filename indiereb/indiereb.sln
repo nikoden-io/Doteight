@@ -4,6 +4,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "indiereb", "indiereb\indier
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "indierazor", "indierazor\indierazor.csproj", "{7E872D71-EA7E-4910-9991-F2993BA177FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indiereb.Models", "Indiereb.Models\Indiereb.Models.csproj", "{82C60CD6-8CE5-4F53-AE23-7BC71E360DA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indiereb.DataAccess", "Indiereb.DataAccess\Indiereb.DataAccess.csproj", "{634F51FB-68D2-4B49-A5CF-0DEB49E330D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indiereb.Utility", "Indiereb.Utility\Indiereb.Utility.csproj", "{DDE0438F-A811-4425-B497-8354E714120A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +24,17 @@ Global
 		{7E872D71-EA7E-4910-9991-F2993BA177FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E872D71-EA7E-4910-9991-F2993BA177FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E872D71-EA7E-4910-9991-F2993BA177FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82C60CD6-8CE5-4F53-AE23-7BC71E360DA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C60CD6-8CE5-4F53-AE23-7BC71E360DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C60CD6-8CE5-4F53-AE23-7BC71E360DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C60CD6-8CE5-4F53-AE23-7BC71E360DA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{634F51FB-68D2-4B49-A5CF-0DEB49E330D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{634F51FB-68D2-4B49-A5CF-0DEB49E330D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{634F51FB-68D2-4B49-A5CF-0DEB49E330D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{634F51FB-68D2-4B49-A5CF-0DEB49E330D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE0438F-A811-4425-B497-8354E714120A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE0438F-A811-4425-B497-8354E714120A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE0438F-A811-4425-B497-8354E714120A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE0438F-A811-4425-B497-8354E714120A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

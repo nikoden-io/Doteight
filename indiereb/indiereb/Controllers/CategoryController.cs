@@ -1,5 +1,5 @@
 using indiereb.Data;
-using indiereb.Models;
+using Indiereb.Models.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace indiereb.Controllers;

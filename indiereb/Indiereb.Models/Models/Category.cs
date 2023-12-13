@@ -1,7 +1,7 @@
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace indiereb.Models;
+namespace Indiereb.Models.Models;
 
 public class Category
 {

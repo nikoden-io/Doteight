@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("indierazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d50f3d1022ccfbf2b68e75fe4f17237b93eb7d57")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("indierazor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("indierazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

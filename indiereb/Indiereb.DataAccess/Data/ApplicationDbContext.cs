@@ -1,4 +1,4 @@
-using indiereb.Models;
+using Indiereb.Models.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace indiereb.Data;
