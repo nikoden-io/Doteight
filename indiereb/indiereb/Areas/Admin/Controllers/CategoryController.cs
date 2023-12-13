@@ -1,22 +1,23 @@
-using indiereb.Data;
+using Indiereb.DataAccess.Repository.IRepository;
 using Indiereb.Models.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace indiereb.Controllers;
+namespace indiereb.Areas.Admin.Controllers;
 
+[Area("Admin")]
 public class CategoryController : Controller
 {
-    private readonly ApplicationDbContext _db;
+    private readonly IUnitOfWork _unitOfWork;
 
-    public CategoryController(ApplicationDbContext db)
+    public CategoryController(IUnitOfWork unitOfWork)
     {
-        _db = db;
+        _unitOfWork = unitOfWork;
     }
 
     public IActionResult Index()
     {
         // Retrieve our categories 
-        var objCategoryList = _db.Categories.ToList();
+        var objCategoryList = _unitOfWork.Category.GetAll().ToList();
         return View(objCategoryList);
     }
 
@@ -33,8 +34,8 @@ public class CategoryController : Controller
 
         if (!ModelState.IsValid) return View();
 
-        _db.Categories.Add(obj);
-        _db.SaveChanges();
+        _unitOfWork.Category.Add(obj);
+        _unitOfWork.Save();
 
         TempData["SuccessMessage"] = "Category created successfully";
 
@@ -45,7 +46,7 @@ public class CategoryController : Controller
     {
         if (id is null or 0) return NotFound();
 
-        var categoryFromDatabase = _db.Categories.Find(id);
+        var categoryFromDatabase = _unitOfWork.Category.GetOne(c => c.CategoryId == id);
 
         if (categoryFromDatabase == null) return NotFound();
 
@@ -59,8 +60,8 @@ public class CategoryController : Controller
 
         if (!ModelState.IsValid) return View(obj);
 
-        _db.Categories.Update(obj);
-        _db.SaveChanges();
+        _unitOfWork.Category.Update(obj);
+        _unitOfWork.Save();
 
         return RedirectToAction("Index");
     }
@@ -68,12 +69,12 @@ public class CategoryController : Controller
     [HttpPost]
     public IActionResult Delete(int? id)
     {
-        var obj = _db.Categories.Find(id);
+        var obj = _unitOfWork.Category.GetOne(c => c.CategoryId == id);
 
         if (obj == null) return NotFound();
 
-        _db.Categories.Remove(obj);
-        _db.SaveChanges();
+        _unitOfWork.Category.Remove(obj);
+        _unitOfWork.Save();
 
         return RedirectToAction("Index");
     }

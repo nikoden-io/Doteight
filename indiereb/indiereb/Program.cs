@@ -1,4 +1,6 @@
 using indiereb.Data;
+using Indiereb.DataAccess.Repository;
+using Indiereb.DataAccess.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +11,9 @@ builder.Services.AddControllersWithViews();
 // Add the database context to the container
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// Add the repository to the container
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 var app = builder.Build();
 
@@ -29,6 +34,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     "default",
-    "{controller=Category}/{action=Index}/{id?}");
+    "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
 
 app.Run();

@@ -29,4 +29,41 @@
         <ProjectReference Include="..\Indiereb.DataAccess\Indiereb.DataAccess.csproj"/>
     </ItemGroup>
 
+    <ItemGroup>
+        <Folder Include="Areas\Admin\Views\"/>
+        <Folder Include="Areas\Customer\Views\"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <AdditionalFiles Include="Areas\Admin\Views\Category\Create.cshtml"/>
+        <AdditionalFiles Include="Areas\Admin\Views\Category\Edit.cshtml"/>
+        <AdditionalFiles Include="Areas\Admin\Views\Category\Index.cshtml"/>
+        <AdditionalFiles Include="Areas\Customer\Views\Home\DummyAction.cshtml" />
+        <AdditionalFiles Include="Areas\Customer\Views\Home\Index.cshtml" />
+        <AdditionalFiles Include="Areas\Customer\Views\Home\Privacy.cshtml" />
+        <AdditionalFiles Include="Areas\Customer\Views\Home\_ViewImports.cshtml" />
+        <AdditionalFiles Include="Areas\Customer\Views\_ViewImports.cshtml"/>
+        <AdditionalFiles Include="Areas\Customer\Views\_ViewStart.cshtml"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <_ContentIncludedByDefault Remove="Views\Home\DummyAction.cshtml"/>
+        <_ContentIncludedByDefault Remove="Views\Home\Index.cshtml"/>
+        <_ContentIncludedByDefault Remove="Views\Home\Privacy.cshtml"/>
+        <_ContentIncludedByDefault Remove="Views\Shared\Error.cshtml"/>
+        <_ContentIncludedByDefault Remove="Views\Shared\_Layout.cshtml"/>
+        <_ContentIncludedByDefault Remove="Views\Shared\_NotificationPartial.cshtml"/>
+        <_ContentIncludedByDefault Remove="Views\Shared\_ValidationScriptsPartial.cshtml"/>
+        <_ContentIncludedByDefault Remove="Areas\Customer\Views\Shared\Error.cshtml"/>
+        <_ContentIncludedByDefault Remove="Areas\Customer\Views\Shared\_Layout.cshtml"/>
+        <_ContentIncludedByDefault Remove="Areas\Customer\Views\Shared\_NotificationPartial.cshtml"/>
+        <_ContentIncludedByDefault Remove="Areas\Customer\Views\Shared\_ValidationScriptsPartial.cshtml"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <UpToDateCheckInput Remove="Views\Home\DummyAction.cshtml" />
+      <UpToDateCheckInput Remove="Views\Home\Index.cshtml" />
+      <UpToDateCheckInput Remove="Views\Home\Privacy.cshtml" />
+    </ItemGroup>
+
 </Project>
