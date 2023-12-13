@@ -1,6 +1,6 @@
 using System.Diagnostics;
+using Indiereb.Models.Models;
 using Microsoft.AspNetCore.Mvc;
-using indiereb.Models;
 
 namespace indiereb.Controllers;
 
@@ -22,8 +22,8 @@ public class HomeController : Controller
     {
         return View();
     }
-    
-    
+
+
     public IActionResult DummyAction()
     {
         return View();

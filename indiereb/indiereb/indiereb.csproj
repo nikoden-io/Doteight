@@ -25,4 +25,8 @@
         <PackageReference Include="toastr" Version="2.1.1"/>
     </ItemGroup>
 
+    <ItemGroup>
+        <ProjectReference Include="..\Indiereb.DataAccess\Indiereb.DataAccess.csproj"/>
+    </ItemGroup>
+
 </Project>

@@ -1,0 +1,12 @@
+/Users/nicode/Development/GitHub/Doteight/indiereb/Indiereb.Models/bin/Debug/net8.0/Indiereb.Models.deps.json
+/Users/nicode/Development/GitHub/Doteight/indiereb/Indiereb.Models/bin/Debug/net8.0/Indiereb.Models.dll
+/Users/nicode/Development/GitHub/Doteight/indiereb/Indiereb.Models/bin/Debug/net8.0/Indiereb.Models.pdb
+/Users/nicode/Development/GitHub/Doteight/indiereb/Indiereb.Models/obj/Debug/net8.0/Indiereb.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nicode/Development/GitHub/Doteight/indiereb/Indiereb.Models/obj/Debug/net8.0/Indiereb.Models.AssemblyInfoInputs.cache
+/Users/nicode/Development/GitHub/Doteight/indiereb/Indiereb.Models/obj/Debug/net8.0/Indiereb.Models.AssemblyInfo.cs
+/Users/nicode/Development/GitHub/Doteight/indiereb/Indiereb.Models/obj/Debug/net8.0/Indiereb.Models.csproj.CoreCompileInputs.cache
+/Users/nicode/Development/GitHub/Doteight/indiereb/Indiereb.Models/obj/Debug/net8.0/Indiereb.Models.sourcelink.json
+/Users/nicode/Development/GitHub/Doteight/indiereb/Indiereb.Models/obj/Debug/net8.0/Indiereb.Models.dll
+/Users/nicode/Development/GitHub/Doteight/indiereb/Indiereb.Models/obj/Debug/net8.0/refint/Indiereb.Models.dll
+/Users/nicode/Development/GitHub/Doteight/indiereb/Indiereb.Models/obj/Debug/net8.0/Indiereb.Models.pdb
+/Users/nicode/Development/GitHub/Doteight/indiereb/Indiereb.Models/obj/Debug/net8.0/ref/Indiereb.Models.dll

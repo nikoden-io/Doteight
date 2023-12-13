@@ -2919,6 +2919,32 @@
         "dependencies": {
           "jQuery": "1.6.3"
         }
+      },
+      "Indiereb.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Indiereb.Models": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Indiereb.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Indiereb.DataAccess.dll": {}
+        }
+      },
+      "Indiereb.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Indiereb.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Indiereb.Models.dll": {}
+        }
       }
     }
   },
@@ -8043,10 +8069,21 @@
         "toastr.2.1.1.nupkg.sha512",
         "toastr.nuspec"
       ]
+    },
+    "Indiereb.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../Indiereb.DataAccess/Indiereb.DataAccess.csproj",
+      "msbuildProject": "../Indiereb.DataAccess/Indiereb.DataAccess.csproj"
+    },
+    "Indiereb.Models/1.0.0": {
+      "type": "project",
+      "path": "../Indiereb.Models/Indiereb.Models.csproj",
+      "msbuildProject": "../Indiereb.Models/Indiereb.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Indiereb.DataAccess >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.0",
@@ -8080,7 +8117,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/nicode/Development/GitHub/Doteight/indiereb/Indiereb.DataAccess/Indiereb.DataAccess.csproj": {
+              "projectPath": "/Users/nicode/Development/GitHub/Doteight/indiereb/Indiereb.DataAccess/Indiereb.DataAccess.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
