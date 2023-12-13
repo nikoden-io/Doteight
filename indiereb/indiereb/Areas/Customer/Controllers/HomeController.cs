@@ -2,8 +2,9 @@ using System.Diagnostics;
 using Indiereb.Models.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace indiereb.Controllers;
+namespace indiereb.Areas.Customer.Controllers;
 
+[Area("Customer")]
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
@@ -15,7 +16,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View("DummyAction"); // Custom view name
+        return View();
     }
 
     public IActionResult Privacy()
@@ -26,7 +27,7 @@ public class HomeController : Controller
 
     public IActionResult DummyAction()
     {
-        return View();
+        return View("DummyAction"); // Useless here, but we can specify custom view to display for this action
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
